@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+"http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+	<!-- <beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+		xsi:schemalocation=" http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"> -->
+
+	<bean id="foo" class="com.smiletech.autowire.Foo">
+		<property name="name">
+			hooo
+		</property>
+	</bean>
+	<!-- <bean id="byName" autowire="byName" class="com.smiletech.autowire.ThisBean"/> 
+		<bean id="byType" autowire="byType" class="com.smiletech.autowire.ThisBean"/> 
+		<bean id="constructor" autowire="constructor" class="com.smiletech.autowire.ThisBean"/> 
+		<bean id="autodetect" autowire="autodetect" class="com.smiletech.autowire.ThisBean"/> -->
+</beans>
